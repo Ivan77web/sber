@@ -1,0 +1,21 @@
+.Button {
+    padding: 6px 16px;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.filled {
+    background: var(--accent-color);
+    border: none;
+    outline: none;
+}
+
+.clear {
+    border: none;
+    outline: none;
+}
+
+.disabled {
+    opacity: 0.5;
+}
