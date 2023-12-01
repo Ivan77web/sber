@@ -1,0 +1,43 @@
+.text{
+    font-family: 'Exo 2', sans-serif;
+    color: var(--);
+}
+
+.s{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.m{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.l{
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.s_weight{
+    font-weight: 400;
+}
+
+.l_weight{
+    font-weight: 600;
+}
+
+.normal{
+    color: var(--font-color);
+}
+
+.warning{
+    color: var(--font-warning-color);
+}
+
+.gray{
+    color: var(--font-gray-color);
+}
+
+.white{
+    color: var(--font-white-color);
+}

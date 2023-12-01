@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --main-color: #1E1F27;
+    --second-color: #2A2C35;
+
+    --font-color: #CFD2E3;
+    --font-gray-color: #777B8E;
+    --font-warning-color: #FF7549;
+    --font-white-color: rgb(255, 255, 255);
+
+    --accent-color: #855AFF;
+}
