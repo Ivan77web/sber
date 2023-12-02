@@ -3,13 +3,15 @@ import cl from './Text.module.css';
 
 type TextSize = 's' | 'm' | 'l';
 type TextWeight = 's_weight' | 'l_weight';
-type TextColor = 'normal' | 'warning' | 'gray' | 'white';
+type TextColor = 'normal' | 'warning' | 'gray' | 'white' | 'accent';
+type TextAlign = 'left' | 'center' | 'right';
 
 interface TextProps {
     text: string;
     size?: TextSize;
     weight?: TextWeight;
     color?: TextColor;
+    align?: TextAlign;
 }
 
 export const Text = (props: TextProps) => {
@@ -18,9 +20,10 @@ export const Text = (props: TextProps) => {
         size = 'm',
         weight = 's',
         color = 'normal',
+        align = 'left',
     } = props;
 
     return (
-        <p className={classNames(cl.text, {}, [cl[size], cl[weight], cl[color]])}>{text}</p>
+        <p className={classNames(cl.text, {}, [cl[size], cl[weight], cl[color], cl[align]])}>{text}</p>
     )
 }

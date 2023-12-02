@@ -1,0 +1,17 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
